@@ -165,7 +165,6 @@ class _VerticalScrollableTabViewState extends State<VerticalScrollableTabView>
 
   @override
   void dispose() {
-    widget._tabController.dispose();
     super.dispose();
   }
 
